@@ -6,7 +6,7 @@ curl https://raw.githubusercontent.com/vimjoyer/impermanent-setup/main/final/dis
 ```
 
 ## disko formatting command
-replace `'"/dev/vda"'` with tour drive
+replace `'"/dev/vda"'` with your drive
 ```bash
 sudo nix --experimental-features "nix-command flakes" run github:nix-community/disko -- --mode disko /tmp/disko.nix --arg device '"/dev/vda"'
 ```
